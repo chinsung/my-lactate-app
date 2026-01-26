@@ -19,7 +19,7 @@ def format_pace(decimal_pace):
     return f"{minutes}:{seconds:02d}"
 
 # --- ส่วนหัวของแอป ---
-st.title("🏃‍♂️ Lactate Threshold & Training Zones")
+st.title("🏃‍♂️ Lactate Threshold & Training Zones by Shin")
 st.markdown("วิเคราะห์สมรรถภาพการวิ่งด้วยค่าแลคเตท และออกแบบโซนการซ้อมส่วนบุคคล")
 
 # --- ส่วน Sidebar (กรอกข้อมูล) ---
@@ -108,3 +108,4 @@ if len(input_df) >= 3:
 
 else:
     st.warning("⚠️ กรุณากรอกข้อมูล Pace และ Lactate อย่างน้อย 3 จุดในแถบด้านซ้าย")
+
